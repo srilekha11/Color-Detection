@@ -5,7 +5,7 @@ import cv2
 clicked = False
 r = g = b = xpos = ypos = 0
 
-image = cv2.imread("resources/colors.jpeg")
+image = cv2.imread("https://github.com/srilekha11/Color-Detection/blob/master/colourdetection/resources/colors.jpeg")
 image=cv2.resize(image,(1400,700))
 index=["color", "color_name", "hex", "R", "G", "B"]
 data = pd.read_csv("https://github.com/srilekha11/Color-Detection/blob/master/colourdetection/resources/colorcodes.csv", names=index, header=None,encoding='cp1252')
